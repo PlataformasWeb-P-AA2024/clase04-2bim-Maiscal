@@ -1,4 +1,11 @@
-<h2>Editar Estudiante</h3>
+{% extends "master.html" %}
+
+{% block title %} 
+Editar Estudiante
+{% endblock %}
+
+{% block content %}
+<h3>Editar Estudiante</h3>  
 
 <form action="" method="post">
   {% csrf_token %}
@@ -6,4 +13,5 @@
   <p><input type='submit' value='Actualizar'/></p>
 </form>
 
-[<a href="{% url 'index' %}">inicio</a>]
+  [<a href="{% url 'index' %}">inicio</a>]
+{% endblock %}
