@@ -63,6 +63,7 @@ label {
   float:left;
   padding: 5px;
   width:95%;
+  color: #FFF;
 }
 
 .top_menu ul li
@@ -71,7 +72,16 @@ label {
   margin-right:10px;
   margin-bottom:5px;
   text: #FFF;
+  color: #FFFF;
 
+}
+
+.top_menu ul li a
+{
+  float:left;
+  margin-right:10px;
+  margin-bottom:5px;
+  color: #ffffff;
 }
 
 footer{
